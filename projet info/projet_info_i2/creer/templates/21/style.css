@@ -1,0 +1,504 @@
+._21-profile,
+._21-profile * {
+  box-sizing: border-box;
+}
+._21-profile {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #26619c;
+  border-width: 1px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  background: var(--white-500, #ffffff);
+  width: 1440px;
+  height: 1024px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.header {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-3463279 {
+  width: 1140px;
+  height: 82px;
+  position: absolute;
+  left: 300px;
+  top: 20px;
+}
+.frame-1000000968 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 330px;
+  top: 35px;
+}
+.text {
+  color: var(--dark-500, #16151c);
+  text-align: left;
+  font-family: var(--header-6-bold-font-family, "Lexend-SemiBold", sans-serif);
+  font-size: var(--header-6-bold-font-size, 20px);
+  line-height: var(--header-6-bold-line-height, 30px);
+  font-weight: var(--header-6-bold-font-weight, 600);
+  position: relative;
+}
+.text2 {
+  color: var(--gray-500, #a2a1a8);
+  text-align: left;
+  font-family: var(--body-2-regular-font-family, "Lexend-Light", sans-serif);
+  font-size: var(--body-2-regular-font-size, 14px);
+  line-height: var(--body-2-regular-line-height, 22px);
+  font-weight: var(--body-2-regular-font-weight, 300);
+  position: relative;
+}
+.side-menu-variant-3 {
+  width: 280px;
+  height: 984px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.rectangle-41 {
+  background: var(--gray-gray-5, rgba(162, 161, 168, 0.05));
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.logo-text {
+  width: 123.06px;
+  height: 50px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  overflow: hidden;
+}
+.frame-427320604 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 30px;
+  top: 142px;
+}
+.dashboard {
+  flex-shrink: 0;
+  width: 220px;
+  height: 50px;
+  position: static;
+}
+.rectangle-42 {
+  background: var(--primary-primary-5, rgba(113, 82, 243, 0.05));
+  border-radius: 0px 10px 10px 0px;
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.huge-icon-interface-solid-apps {
+  width: 10.91%;
+  height: 5.85%;
+  position: absolute;
+  right: 80.45%;
+  left: 8.64%;
+  bottom: 90.98%;
+  top: 3.17%;
+  overflow: hidden;
+}
+.apps {
+  height: auto;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  overflow: visible;
+}
+.profile {
+  color: #0060a0;
+  text-align: left;
+  font-family: var(--body-1-bold-font-family, "Lexend-SemiBold", sans-serif);
+  font-size: var(--body-1-bold-font-size, 16px);
+  line-height: var(--body-1-bold-line-height, 24px);
+  font-weight: var(--body-1-bold-font-weight, 600);
+  position: absolute;
+  left: 59px;
+  top: 13px;
+  width: 151px;
+}
+.rectangle-7 {
+  background: #0060a0;
+  border-radius: 10px;
+  width: 3px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.all-employees {
+  flex-shrink: 0;
+  width: 220px;
+  height: 50px;
+  position: static;
+}
+.rectangle-422 {
+  background: var(--primary-primary-5, rgba(113, 82, 243, 0.05));
+  border-radius: 0px 10px 10px 0px;
+  opacity: 0;
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+}
+.huge-icon-user-outline-users-02 {
+  width: 10.91%;
+  height: 5.85%;
+  position: absolute;
+  right: 80.45%;
+  left: 8.64%;
+  bottom: 76.34%;
+  top: 17.8%;
+  overflow: visible;
+}
+.l-ves {
+  color: var(--dark-500, #16151c);
+  text-align: left;
+  font-family: var(--body-1-regular-font-family, "Lexend-Light", sans-serif);
+  font-size: var(--body-1-regular-font-size, 16px);
+  line-height: var(--body-1-regular-line-height, 24px);
+  font-weight: var(--body-1-regular-font-weight, 300);
+  position: absolute;
+  left: 59px;
+  top: 73px;
+  width: 151px;
+}
+.rectangle-72 {
+  background: #0060a0;
+  border-radius: 10px;
+  opacity: 0;
+  width: 3px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+}
+.all-departments {
+  flex-shrink: 0;
+  width: 220px;
+  height: 50px;
+  position: static;
+}
+.rectangle-423 {
+  background: var(--primary-primary-5, rgba(113, 82, 243, 0.05));
+  border-radius: 0px 10px 10px 0px;
+  opacity: 0;
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 120px;
+}
+.huge-icon-user-outline-community {
+  width: 10.91%;
+  height: 5.85%;
+  position: absolute;
+  right: 80.45%;
+  left: 8.64%;
+  bottom: 61.71%;
+  top: 32.44%;
+  overflow: visible;
+}
+.classes-groupes {
+  color: var(--dark-500, #16151c);
+  text-align: left;
+  font-family: var(--body-1-regular-font-family, "Lexend-Light", sans-serif);
+  font-size: var(--body-1-regular-font-size, 16px);
+  line-height: var(--body-1-regular-line-height, 24px);
+  font-weight: var(--body-1-regular-font-weight, 300);
+  position: absolute;
+  left: 59px;
+  top: 133px;
+  width: 151px;
+}
+.rectangle-73 {
+  background: #0060a0;
+  border-radius: 10px;
+  opacity: 0;
+  width: 3px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 120px;
+}
+.attendance {
+  flex-shrink: 0;
+  width: 220px;
+  height: 50px;
+  position: static;
+}
+.rectangle-424 {
+  background: var(--primary-primary-5, rgba(113, 82, 243, 0.05));
+  border-radius: 0px 10px 10px 0px;
+  opacity: 0;
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 180px;
+}
+.huge-icon-time-and-date-outline-calendar-check {
+  width: 10.91%;
+  height: 5.85%;
+  position: absolute;
+  right: 80.45%;
+  left: 8.64%;
+  bottom: 47.07%;
+  top: 47.07%;
+  overflow: visible;
+}
+.emploie-du-temps {
+  color: var(--dark-500, #16151c);
+  text-align: left;
+  font-family: var(--body-1-regular-font-family, "Lexend-Light", sans-serif);
+  font-size: var(--body-1-regular-font-size, 16px);
+  line-height: var(--body-1-regular-line-height, 24px);
+  font-weight: var(--body-1-regular-font-weight, 300);
+  position: absolute;
+  left: 59px;
+  top: 193px;
+  width: 151px;
+}
+.rectangle-74 {
+  background: #0060a0;
+  border-radius: 10px;
+  opacity: 0;
+  width: 3px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 180px;
+}
+.rectangle-425 {
+  background: var(--primary-primary-5, rgba(113, 82, 243, 0.05));
+  border-radius: 0px 10px 10px 0px;
+  opacity: 0;
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 240px;
+}
+.huge-icon-finance-and-payment-outline-coin-dollar {
+  width: 10.91%;
+  height: 5.85%;
+  position: absolute;
+  right: 80.45%;
+  left: 8.64%;
+  bottom: 32.44%;
+  top: 61.71%;
+  overflow: visible;
+}
+.salles {
+  color: var(--dark-500, #16151c);
+  text-align: left;
+  font-family: var(--body-1-regular-font-family, "Lexend-Light", sans-serif);
+  font-size: var(--body-1-regular-font-size, 16px);
+  line-height: var(--body-1-regular-line-height, 24px);
+  font-weight: var(--body-1-regular-font-weight, 300);
+  position: absolute;
+  left: 59px;
+  top: 253px;
+  width: 151px;
+}
+.rectangle-75 {
+  background: #0060a0;
+  border-radius: 10px;
+  opacity: 0;
+  width: 3px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 240px;
+}
+.candidates {
+  flex-shrink: 0;
+  width: 220px;
+  height: 50px;
+  position: static;
+}
+.rectangle-426 {
+  background: var(--primary-primary-5, rgba(113, 82, 243, 0.05));
+  border-radius: 0px 10px 10px 0px;
+  opacity: 0;
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 300px;
+}
+.huge-icon-user-outline-users-01 {
+  width: 10.91%;
+  height: 5.85%;
+  position: absolute;
+  right: 80.45%;
+  left: 8.64%;
+  bottom: 17.8%;
+  top: 76.34%;
+  overflow: visible;
+}
+.professeurs {
+  color: var(--dark-500, #16151c);
+  text-align: left;
+  font-family: var(--body-1-regular-font-family, "Lexend-Light", sans-serif);
+  font-size: var(--body-1-regular-font-size, 16px);
+  line-height: var(--body-1-regular-line-height, 24px);
+  font-weight: var(--body-1-regular-font-weight, 300);
+  position: absolute;
+  left: 59px;
+  top: 313px;
+  width: 151px;
+}
+.rectangle-76 {
+  background: #0060a0;
+  border-radius: 10px;
+  opacity: 0;
+  width: 3px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 300px;
+}
+.leaves {
+  flex-shrink: 0;
+  width: 220px;
+  height: 50px;
+  position: static;
+}
+.rectangle-427 {
+  background: var(--primary-primary-5, rgba(113, 82, 243, 0.05));
+  border-radius: 0px 10px 10px 0px;
+  opacity: 0;
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 360px;
+}
+.huge-icon-interface-outline-notepad {
+  width: 10.91%;
+  height: 5.85%;
+  position: absolute;
+  right: 80.45%;
+  left: 8.64%;
+  bottom: 3.17%;
+  top: 90.98%;
+  overflow: visible;
+}
+.formations {
+  color: var(--dark-500, #16151c);
+  text-align: left;
+  font-family: var(--body-1-regular-font-family, "Lexend-Light", sans-serif);
+  font-size: var(--body-1-regular-font-size, 16px);
+  line-height: var(--body-1-regular-line-height, 24px);
+  font-weight: var(--body-1-regular-font-weight, 300);
+  position: absolute;
+  left: 59px;
+  top: 373px;
+  width: 151px;
+}
+.rectangle-77 {
+  background: #0060a0;
+  border-radius: 10px;
+  opacity: 0;
+  width: 3px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 360px;
+}
+.telecharger-button {
+  background: rgba(246, 245, 255, 0.7);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: rgba(0, 98, 163, 0.5);
+  border-width: 1px;
+  padding: 20px 32px 20px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 245px;
+  height: 60px;
+  position: absolute;
+  left: 17px;
+  top: 929px;
+}
+.combo-shape {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.quitter-et-t-l-charger {
+  color: #0062a3;
+  text-align: center;
+  font-family: "NunitoSans-Medium", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.e-cureil-drapeau-jaune-1 {
+  width: 228px;
+  height: 218px;
+  position: absolute;
+  left: 26px;
+  top: 631px;
+  object-fit: cover;
+}
+.iseplogo {
+  width: 140px;
+  height: 60px;
+  position: absolute;
+  left: 70px;
+  top: 40px;
+  overflow: visible;
+}
+.illu-ingenieur-logiciel-1 {
+  width: 943px;
+  height: 485px;
+  position: absolute;
+  left: 398px;
+  top: 433px;
+  object-fit: cover;
+}
+.bienvenu {
+  color: var(--dark-500, #16151c);
+  text-align: left;
+  font-family: "Lexend-SemiBold", sans-serif;
+  font-size: 48px;
+  line-height: 40px;
+  font-weight: 600;
+  position: absolute;
+  left: 647px;
+  top: 235px;
+  width: 445px;
+}

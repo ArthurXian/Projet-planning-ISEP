@@ -1,0 +1,253 @@
+._14-calendrier-professeurs,
+._14-calendrier-professeurs * {
+  box-sizing: border-box;
+}
+._14-calendrier-professeurs {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #26619c;
+  border-width: 1px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.img-isep {
+  width: 1535px;
+  height: 1024px;
+  position: absolute;
+  left: -48px;
+  top: calc(50% - 514px);
+  object-fit: cover;
+}
+.next-button {
+  background: #0062a3;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 445px;
+  height: 56px;
+  position: absolute;
+  left: 275px;
+  top: 888px;
+}
+.button {
+  color: var(--white-500, #ffffff);
+  text-align: left;
+  font-family: "Lexend-Light", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+  position: relative;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 275px;
+  top: calc(50% - 402px);
+}
+.retourner-bouton {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.div {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.vuesax-linear-arrow-left {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.retourner {
+  color: var(--dark-500, #16151c);
+  text-align: left;
+  font-family: var(--body-1-regular-font-family, "Lexend-Light", sans-serif);
+  font-size: var(--body-1-regular-font-size, 16px);
+  line-height: var(--body-1-regular-line-height, 24px);
+  font-weight: var(--body-1-regular-font-weight, 300);
+  position: relative;
+}
+.titre {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.titre2 {
+  color: var(--dark-500, #16151c);
+  text-align: left;
+  font-family: "Lexend-SemiBold", sans-serif;
+  font-size: 48px;
+  line-height: 70px;
+  font-weight: 600;
+  position: relative;
+  width: 696px;
+  height: 86px;
+}
+.sous-titre {
+  color: var(--gray-500, #a2a1a8);
+  text-align: left;
+  font-family: var(--body-1-regular-font-family, "Lexend-Light", sans-serif);
+  font-size: var(--body-1-regular-font-size, 16px);
+  line-height: var(--body-1-regular-line-height, 24px);
+  font-weight: var(--body-1-regular-font-weight, 300);
+  position: relative;
+  width: 445px;
+}
+.file-upload-eleves {
+  border-radius: 5px;
+  border-style: dashed;
+  border-color: #0062a3;
+  border-width: 1px;
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  left: 275px;
+  top: 697px;
+  overflow: hidden;
+}
+.property-1-default {
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #0062a3;
+  border-width: 2px;
+  padding: 16px 32px 16px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  position: relative;
+}
+._24-outlined-action-download-upload-upload {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.property-1-error {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 123px;
+  height: 16px;
+  position: relative;
+}
+.file-upload-professeurs {
+  border-radius: 5px;
+  border-style: dashed;
+  border-color: #0062a3;
+  border-width: 1px;
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  left: 275px;
+  top: 506px;
+  overflow: hidden;
+}
+._24-outlined-action-download-upload-upload2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.file-upload-salles {
+  border-radius: 5px;
+  border-style: dashed;
+  border-color: #0062a3;
+  border-width: 1px;
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  left: 776px;
+  top: 502px;
+  overflow: hidden;
+}
+._24-outlined-action-download-upload-upload3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.file-upload-formations {
+  border-radius: 5px;
+  border-style: dashed;
+  border-color: #0062a3;
+  border-width: 1px;
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  left: 776px;
+  top: 697px;
+  overflow: hidden;
+}
+._24-outlined-action-download-upload-upload4 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.telecharger-button {
+  background: rgba(246, 245, 255, 0.7);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: rgba(0, 98, 163, 0.5);
+  border-width: 1px;
+  padding: 20px 32px 20px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 290px;
+  height: 60px;
+  position: absolute;
+  left: 275px;
+  top: 374px;
+}
+.combo-shape {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.t-l-charger-les-formulaire {
+  color: #0062a3;
+  text-align: center;
+  font-family: "NunitoSans-Medium", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,108 @@
+._00-accueil,
+._00-accueil * {
+  box-sizing: border-box;
+}
+._00-accueil {
+  background: rgba(255, 255, 255, 0.4);
+  border-style: solid;
+  border-color: #26619c;
+  border-width: 1px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.img-isep {
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0.45),
+    rgba(255, 255, 255, 0.45)
+  );
+  width: 1540px;
+  height: 1027.94px;
+  position: absolute;
+  left: -44px;
+  top: calc(50% - 515.67px);
+  object-fit: cover;
+}
+.gestion {
+  background: #0062a3;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 445px;
+  height: 56px;
+  position: absolute;
+  left: 914px;
+  top: 550px;
+}
+.text {
+  color: var(--white-500, #ffffff);
+  text-align: left;
+  font-family: "Lexend-Light", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+  position: relative;
+}
+.generer {
+  background: #0062a3;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 445px;
+  height: 56px;
+  position: absolute;
+  left: 914px;
+  top: 474px;
+}
+.choix {
+  color: #f2a200;
+  text-align: left;
+  font-family: "Lexend-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 50px;
+  font-weight: 700;
+  position: absolute;
+  left: 914px;
+  top: 365px;
+  width: 445px;
+  -webkit-text-stroke: 1px #de9d19;
+}
+.bienvenu {
+  color: var(--dark-500, #16151c);
+  text-align: left;
+  font-family: "Lexend-SemiBold", sans-serif;
+  font-size: 48px;
+  line-height: 40px;
+  font-weight: 600;
+  position: absolute;
+  left: 914px;
+  top: 299px;
+  width: 445px;
+}
+.img-isep2 {
+  border-radius: 18px;
+  width: 809px;
+  height: 540px;
+  position: absolute;
+  left: 52px;
+  top: 50%;
+  translate: 0 -50%;
+  object-fit: cover;
+}
+.isep-ani-1 {
+  width: 189px;
+  height: 240px;
+  position: absolute;
+  left: 1042px;
+  top: 706px;
+  object-fit: cover;
+}
